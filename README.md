@@ -120,9 +120,3 @@ kaggle datasets download -d dynemiesizumaki/cbis-ddsmpng --unzip -p ./data
 ```
 
 CNN notebook 在 Google Colab T4 GPU 上執行，單一 notebook 約 15–30 分鐘。
-KNN pipeline/
-  01_feature_extraction.py     從遮罩抽取 8 個形狀特徵 → features0512.csv
-  02_knn_classifier.py         特徵選擇、k 值搜尋、惡性門檻調整
-CNN pipeline/
-  01–05_*.ipynb                五個 CNN 實驗（含輸出結果）
-```
